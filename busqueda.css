@@ -1,0 +1,68 @@
+﻿body {
+    background: white;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+#header {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background: #006699;
+    border-radius: 5px;
+}
+.cajabusqueda {
+    
+    position: fixed;
+    z-index: 1;
+    left: 15.8%;
+    top: 20px;
+    width: 55.4%;
+    height: 25px;
+    padding-left: 10px;
+    font-family: arial;
+    color: white;
+    background: transparent;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 1px solid aqua;
+}
+.botonhecho {
+    position: fixed;
+    z-index: 1;
+    left: 73.6%;
+    top: 27px;
+    font-family: arial;
+    color: white;
+    background: #349c68;
+    border: 0px;
+    border-radius: 2px;
+}
+#mid {
+    width: 100%;
+    height: 715px;
+    top: 75px;
+    position: absolute;
+    font-family: arial;
+    color: cadetblue;
+    padding-top: 200px;
+    background: -webkit-linear-gradient(top, #006699, #349c68);
+}
+#footer {
+    background: #349c68;
+    font-family: arial;
+    color: antiquewhite;
+    border: 1px solid aqua;
+    border-radius: 12px;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 1000px;
+    margin: 0px;
+    padding-top: 30px;
+}
+.botonhecho:hover {
+
+    background-color: #006699;
+}
