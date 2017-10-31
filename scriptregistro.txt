@@ -1,0 +1,9 @@
+﻿<? php
+
+$_POST=array("nombre","apelle","direccion");
+$fileopen=fopen ("c:\\Apache\\folderapache\\registrados.txt","w");
+fwrite($fileopen,$_POST);
+fclose($fileopen);
+  ?>
+
+

@@ -1,0 +1,10 @@
+//crear paginas de default para personalizarlas con nombre de usuario y etc //a traves de la recoleccion de una cadena de texto de un txt con los datos //de registro guardados
+<?php
+ //pasos:
+ //1 crear una pagina de perfil,mensajes,etc de default para crear las cuentas a partir de alli
+ //2 buscar las cadenas de texto de nombre, direccion,etc en el archivo de registro pd:tambien cambiar los enlaces para la conectividad entre las paginas
+ //3 ponerlas en el archivo de default en txt y despues cambiarle el formato (extension de archivo)
+?>
+
+
+ 

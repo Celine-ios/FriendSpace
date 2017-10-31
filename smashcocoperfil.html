@@ -1,0 +1,155 @@
+﻿<!-- hexadecimal para color naranja:#b76932,#c76946;
+     hexadecimal para color de fondo:#fff0f5
+ usar atributo placeholder="buscar" para las palabras adentro de la caja input de texto -->
+
+ <!-- EL error en el reproductor de video es que use en la etiqueta <source> un atributo type="mp4"
+    el cual no existe y hace que el video no se reproduzca -->
+<!DOCTYPE html>
+<html language="es">
+<head>
+<link rel="stylesheet" href="perfil.css">
+<link rel="shortcut icon" href="Captura.png">
+<meta charset="UTF-8">
+<title>Perfil-FriendSpace</title>
+<meta name="classification" content="social network,red social;">
+<meta name="keywords" content="friendspace,perfil;">
+<meta name="definition" content="red social;">
+<meta name="author" content="juan guzman,ivan mochniy,joseph fahmi;">
+<script src="script_top_trending.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<div class="header">
+<img src="loloplo.png" class="fotoperfil">
+<p id="nombreperfil"><font face="arial" color="white">Juan Guzman</font></p>
+<p id="direccionperfil"><font face="arial" color="cadetblue">@watichurros12</font></p>
+<font face="arial" color="white">
+  <h3 id="seguidos">seguidos</h3>
+  <h3 id="seguidores">seguidores</h3>
+  <h3 id="publicaciones">publicaciones</h3>
+</font>
+<font face="arial" color="white">
+  <h3 id="numeroseguidos">13</h3>
+  <h3 id="numeroseguidores">24k</h3>
+  <h3 id="numeropublicaciones">627</h3>
+</font>
+</div>
+<table class="tabla">
+  <tbody>
+  <tr>
+  <th id="cajatabla" style="position:absolute;left:0px;top:0px;"><a href="#" class="text">Buscar</a></th>
+  </tr>
+  <tr>
+  <td id="cajatabla" style="position:absolute;left:0px;top:42px;"><a href="#" class="text">Mensajes</a></td>
+  </tr>
+  <tr>
+  <td id="cajatabla" style="position:absolute;left:0px;top:84px;"><a href="#" class="text">Notificaciones</a></td>
+  </tr>
+  <tr>
+  <td id="cajatabla" style="position:absolute;left:0px;top:126px;"><a href="#" class="text">Imagenes</a></td>  
+  </tr>
+  <tr>
+  <td id="cajatabla" style="position:absolute;left:0px;top:168px;"><a href="#" class="text">Videos</a></td>  
+  </tr>
+  <tr>
+  <td id="cajatabla" style="position:absolute;left:0px;top:210px;"><a href="#" class="text">Musica</a></td>  
+  </tr>
+  <tr>
+  <td id="cajatabla" style="position:absolute;left:0px;top:252px;"><a href="#" class="text">Solicitudes</a></td>  
+  </tr>
+  <tr>
+  <td id="cajatabla" style="position:absolute;left:0px;top:294px;"><a href="#" class="text">SmashBump</a></td>  
+  </tr>
+  <tr>
+  <td id="cajatabla" style="position:absolute;left:0px;top:336px;"><a href="#" class="text">SmashTester</a></td>
+</tr>
+<tr>
+  <td id="cajatabla" style="position:absolute;left:0px;top:378px;"><a href="#" class="text">Configuracion</a></td>
+</tr>
+</tbody>
+</table>
+<div class="container">
+<div>
+  <p align="left">¿Que piensas postear?</p>
+  <a href="#">Gif's</a>
+  <a href="#">Videos</a>
+  <a href="#">Musica</a>
+  </div>
+<form method="post" name="lpm">
+  <textarea name="post" rows="2" cols="40" id="containertext" placeholder="¿Que Piensas?"></textarea>
+  <input type="submit" name="enviarpost" id="botoncontainer" value="dale">
+</form>
+</div> 
+
+<div class="top_trending_hashtags">
+  
+  <div class="text_hshtgs_fill">
+  <h3>Top Trending</h3>
+  <p>#ImTheWalRuz</p>
+  <p>32.549 publicaciones</p>
+  <p>#FriendSpace</p>
+  <p>12.239 publicaciones</p>
+  <p style="visibility: hidden;">#MrRobotS03</p>
+  <p style="visibility: hidden;">12.117 publicaciones</p>
+  <p style="visibility: hidden;">#Lazys</p>
+  <p style="visibility: hidden;">12.005 publicaciones</p>
+  <p style="visibility: hidden;">#Whereismymind</p>
+  <p style="visibility: hidden;">9.119 publicaciones</p>
+  <p style="visibility: hidden;">#JuanGuzman</p>
+  <p style="visibility: hidden;">4.237 publicaciones</p>
+</div>
+
+</div>
+
+<div id="cajavideo1">
+  <video controls preload="none" autoplay loop id="video" width="80%" height="500px" poster="Captura.png">
+    <source src="Hackeando cualquier Facebook como MR.ROBOT 2017.mp4">
+  </video>
+  <div id="postinfo">
+    <img class="fotopost">
+    <p style="font: 100% arial;color: white;left: 75px;position: absolute;top: -11px;">ProfileName</p>
+     <p style="font-family: arial;color: grey;left: 75px;position: absolute;top: 12px">This is the post information</p>
+</div>
+</div>
+<div id="cajavideo2">
+  <video controls preload="auto" loop id="video" width="80%" height="500px" poster="Captura.png" src="Hackeando cualquier Facebook como MR.ROBOT 2017.mp4">
+   <!-- <source src="Hackeando cualquier Facebook como MR.ROBOT 2017.mp4">-->
+  </video>
+  <div id="postinfo">
+    <img class="fotopost">
+    <p style="font: 100% arial;color: white;left: 75px;position: absolute;top: -11px;">ProfileName</p>
+    <p style="font-family: arial;color: grey;left: 75px;position: absolute;top: 12px">This is the post information</p>
+</div>
+</div>
+<div id="cajavideo3">
+  <video controls preload="none" loop id="video" width="80%" height="500px" poster="Captura.png">
+    <source src="Hackeando cualquier Facebook como MR.ROBOT 2017.mp4">
+  </video>
+  <div id="postinfo">
+    <img class="fotopost">
+    <p style="font: 100% arial;color: white;left: 75px;position: absolute;top: -11px;">ProfileName</p>
+    <p style="font-family: arial;color: grey;left: 75px;position: absolute;top: 12px">This is the post information</p>
+</div>
+</div>
+<div id="cajavideo4">
+  <video controls="" preload="none" autoplay="" loop="" id="video" width="80%" height="500px" poster="Captura.png">
+    <source src="Hackeando cualquier Facebook como MR.ROBOT 2017.mp4" type="mp4">
+  </video>
+  <div id="postinfo">
+    <img class="fotopost">
+    <p style="font: 100% arial;color: white;left: 75px;position: absolute;top: -11px;">ProfileName</p>
+    <p style="font-family: arial;color: grey;left: 75px;position: absolute;top: 12px">This is the post information</p>
+</div>
+</div>
+<div id="cajavideo5">
+  <video controls="" preload="none" autoplay="" loop="" id="video" width="80%" height="500px" poster="Captura.png">
+    <source src="Hackeando cualquier Facebook como MR.ROBOT 2017.mp4" type="mp4">
+  </video>
+  <div id="postinfo">
+    <img class="fotopost">
+    <p style="font: 100% arial;color: white;left: 75px;position: absolute;top: -11px;">ProfileName</p>
+    <p style="font-family: arial;color: grey;left: 75px;position: absolute;top: 12px">This is the post information</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+#barra_reproductor {
+    position: absolute;
+    width: 451px;
+    height: 30px;
+    left: 27px;
+    top: 386px;
+    border-radius: 8px;
+    background: white;
+}
+#botones {
+    position: absolute;
+    top: 5px;
+}
+#barra {
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    left: 100px;
+    top: 9px;
+    background: black;
+}
+
+#progreso{
+position: absolute;
+width: 0px;
+height: 16px;
+background: rgba(0,0,150,.2);
+}

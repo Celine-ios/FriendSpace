@@ -1,0 +1,250 @@
+body {
+    background-color: white;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+.header {
+    background-color: #349c68;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    box-shadow: grey 0px 8px 10px;
+}
+.fotoperfil {
+    border-radius: 70px;
+    position: absolute;
+    left: 75px;
+    top: 270px;
+    -webkit-transition: box-shadow 1s ease 0.3s;
+}
+.fotoperfil:hover {
+
+    box-shadow: black 1px 1px 12px 0px;   
+}
+#nombreperfil {
+    position: absolute;
+    left: 240px;
+    top: 300px;
+}
+#direccionperfil {
+    position: absolute;
+    left: 240px;
+    top: 320px;
+}
+#seguidos {
+    position: absolute;
+    left: 840px;
+    top: 340px;
+}
+#seguidores {
+    position: absolute;
+    left: 958px;
+    top: 340px;
+}
+#publicaciones {
+    position: absolute;
+    left: 1100px;
+    top: 340px;
+}
+#numeroseguidos {
+    position: absolute;
+    left: 870px;
+    top: 320px;
+}
+#numeroseguidores {
+    position: absolute;
+    left: 993px;
+    top: 320px;
+}
+#numeropublicaciones {
+    position: absolute;
+    left: 1150px;
+    top: 320px;
+}
+.tabla {
+    border: 2px solid #349c68;
+    width: 250px;
+    color: cadetblue;
+    height: 424px;
+    position: absolute;
+    top: 420px;
+    border-radius: 12px;
+    box-shadow: grey 5px 2px 10px;
+    background: -webkit-linear-gradient(top,#349c68,green);
+}
+.container {
+    background: -webkit-linear-gradient(left,darkcyan,blue);
+    left: 20.5%;
+    position: absolute;
+    width: 50%;
+    height: 200px;
+    top: 420px;
+    border-radius: 20px;
+    box-shadow: grey 0px 10px 10px;
+}
+#containertext {
+    position: absolute;
+    left: 100px;
+    top: 98px;
+    width: 370px;
+    font-weight: lighter;
+    color: white;
+    font-family: arial;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid aqua;
+}
+#botoncontainer {
+    position: absolute;
+    left: 480px;
+    top: 98px;
+    background: #349c68;
+    color: white;
+    border: 0px;
+    box-shadow: transparent 2px 2px 2px;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+}
+div {
+    padding-left: 10px;
+    position: absolute;
+    font-family: arial;
+    color: white;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: cadetblue;
+}
+#cajatabla {
+    border-radius: 5px;
+    width: 245px;
+    font-family: arial;
+    height: 40px;
+    border-bottom: 1px solid aqua;
+    color: white;
+}
+.text {
+    position: absolute;
+    left: 35px;
+    top: 0px;
+    text-decoration: none;
+    color: white;
+    top: 10px;
+}
+#cajavideo1 {
+    position: absolute;
+    top: 650px;
+    left: 260px;
+    background: -webkit-linear-gradient(left,#349c68,blue);
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: grey 5px 5px 10px;
+}
+#video {
+    position: absolute;
+    left: 27px;
+    top: 15px;
+    width: 450px;
+    height: 400px;
+    border: 1px solid aqua;
+    border-radius: 12px;
+}
+#cajavideo2 {
+    position: absolute;
+    top: 1180px;
+    left: 260px;
+    background: -webkit-linear-gradient(top,#349c68,blue);
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: grey 5px 5px 10px;
+}
+#cajavideo3 {
+    position: absolute;
+    top: 1710px;
+    left: 260px;
+    background: -webkit-linear-gradient(left,#349c68,blue);
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: grey 5px 5px 10px;
+}
+#cajavideo4 {
+    position: absolute;
+    top: 1710px;
+    left: 260px;
+    background: -webkit-linear-gradient(top,#349c68,blue);
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: grey 5px 5px 10px;
+}
+#cajavideo5 {
+    position: absolute;
+    top: 2240px;
+    left: 260px;
+    background: -webkit-linear-gradient(left,#349c68,blue);
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: grey 5px 5px 10px;
+}
+.fotopost {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    border: 1px solid aqua;
+}
+#postinfo {
+    top: 432px;
+    height: 60px;
+    left: 16px;
+    width: 452px;
+}
+.text_other {
+    position: absolute;
+    left: 35px;
+    top: 0px;
+    text-decoration: none;
+    color: white;
+    top: 0px;
+}
+a:hover {
+
+	color: aqua;
+}
+#botoncontainer:hover {
+
+    background: transparent;
+}
+.top_trending_hashtags {
+    position: absolute;
+    border: 1px solid grey;
+    width: 300px;
+    left: 73.2%;
+    top: 420px;
+    height: 200px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.79) 0px 0px 3px;
+    -webkit-transition: height 0.6s cubic-bezier(0.56, 0.18, 0.63, 1.07) 1s;
+}
+.text_hshtgs_fill {
+
+    position: absolute;
+    color: royalblue;
+    width: 300px;
+    height: 200px;
+    -webkit-transition: height 0.6s ease-in-out 1s;
+}
+p[style] {
+
+    -webkit-transition: visibility 0.4s ease 1.2s;
+}
+
+
+

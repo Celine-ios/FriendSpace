@@ -1,0 +1,192 @@
+﻿body {
+    margin: auto;
+    width: 100%;
+    height: 1423px;
+    background: white;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+      width: 15px;
+}
+::-webkit-scrollbar-track {
+      background-color: rgba(128, 128, 128, 0.79);
+}
+::-webkit-scrollbar-thumb {
+
+    background-color: grey;
+    border-radius: 5px;
+}
+
+#header {
+    
+    position: fixed;
+    z-index: 1;
+    background: -webkit-linear-gradient(left,#349c68,blue);
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    border: 1px solid aqua;
+    border-radius: 12px;
+    -webkit-transition: background 20s ease-in-out 1s;
+}
+.logo {
+	position: absolute;
+	border-radius: 12px;
+	width: 400px;
+	height: 150px;
+	top: 15px;
+	left: 15px;
+} 
+#mid {
+	position: absolute;
+	width: 100%;
+	height:780px;
+	top: 105px;
+	background: -webkit-linear-gradient(left, #349c68, blue);
+	font-family: arial;
+	color: cadetblue;
+	padding-top: 300px;
+    border-radius: 5px;
+    margin: auto;
+}
+.boton_registro {
+	position: absolute;
+	background: #349c68;
+	font-family: arial;
+	color: white;
+	border-radius: 3px;
+	border: 1px solid aqua;
+	left: 48.22%;
+}
+#footer {
+	position: absolute;
+	top: 1192px;
+	width: 100%;
+	height: 200px;
+	background: -webkit-linear-gradient(left,#006699,#349c68);
+	border: 1px solid aqua;
+	border-radius: 12px;
+	font-family: arial;
+	color: white;
+	padding-top: 30px;
+}
+.texto {
+
+    
+    position: absolute;
+    font-family: arial;
+    color: darkcyan;
+    left: 67.3%;
+    top: 37px;
+}
+.texto_contraseña {
+    
+    position: absolute;
+    left: 48.5%;
+    top: 37px;
+    font-family: arial;
+    color: darkcyan;
+}
+.caja_contraseña {
+    
+    margin: auto;
+    position: absolute;
+    left: 75%;
+    top: 50px;
+   border-bottom: 1px solid aqua;
+    border-radius: 0px;
+    background: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: white;
+    -webkit-transition: border 1s linear 0.5s;
+}
+.caja {
+
+    margin: auto;
+    position: absolute;
+    left: 53%;
+    top: 50px;
+    border-radius: 0px;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid aqua;
+    color: white;
+    -webkit-transition: border 1s linear 0.5s;
+}
+.boton_aceptar {
+
+    margin: auto;
+    position: absolute;
+    background: darkcyan;
+    border: 0px;
+    font-family: arial;
+    color: white;
+    left: 0px;
+    top: 0px;
+    width: 45px;
+    -webkit-transition: top 0.5s ease 0.1s;
+    visibility: hidden;
+    border-radius: 5px;
+}
+.boton_aceptar:hover {
+    
+    background: transparent;
+
+}
+.boton_registro:hover {
+    
+    background: #1c847d;
+}
+ .caja:focus {
+
+   border: 1px solid blue;
+     
+}
+.caja_contraseña:focus {
+
+    border: 1px solid blue;
+ 
+    
+}
+ #remember_email {
+
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    top: 75px;
+    left: 700px;
+    font: 80% arial;
+    color: red;
+    visibility: visible;
+    -webkit-transition: visibility 1s ease 1s;
+}
+#remember_password {
+
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    top: 75px;
+    left: 972px;
+    font: 80% arial;
+    color: red;
+    visibility: visible;
+    -webkit-transition: visibility 1s ease 1s;
+}
+#fast_line {
+    position: absolute;
+    top: 102px;
+    height: 3px;
+    background: limegreen;
+    width: 0px;
+    -webkit-transition: width 1s ease 0.5s;
+}
+#button_div {
+    position: absolute;
+    left: 89.3%;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+}
+    
